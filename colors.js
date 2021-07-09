@@ -2,7 +2,7 @@
 const resetAllColors='\x1b[0m'; 
 
 const color = {    
-    end     :'\x1b[39m'	//end all previous colors, return to color at terminal startup
+    end     :'\x1b[39m',	//end all previous colors, return to color at terminal startup
 
     black   :'\x1b[30m',
     white   :'\x1b[37m',
@@ -41,16 +41,16 @@ const background={
     magenta :'\x1b[45m',
     yellow  :'\x1b[43m',   
 
-    lightGray   :'\x1b100m',
-    lightWhite  :'\x1b107m',
+    lightGray   :'\x1b[100m',
+    lightWhite  :'\x1b[107m',
 
-    lightRed    :'\x1b101m',
-    lightGreen  :'\x1b102m',
-    lightBlue   :'\x1b104m',
+    lightRed    :'\x1b[101m',
+    lightGreen  :'\x1b[102m',
+    lightBlue   :'\x1b[104m',
     
-    lightCyan   :'\x1b106m',
-    lightMagenta:'\x1b105m',
-    lightYellow :'\x1b103m',
+    lightCyan   :'\x1b[106m',
+    lightMagenta:'\x1b[105m',
+    lightYellow :'\x1b[103m',
 }
 
 const style={
@@ -65,7 +65,7 @@ const style={
 }
   
 export {
-    colors as default,
+    color as default,
     resetAllColors,
     color,
     background,
