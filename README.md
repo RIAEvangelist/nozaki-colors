@@ -13,20 +13,12 @@ console.log(`${colors.magenta}nozaki${colors.end}-${colors.cyan} colors${colors.
 
 ```
 
-### String
-
-Use a color name as the open tag for the color, and a `end` as the closing tag for the color.
-
-```js
-
-console.log(`${colors.magenta}nozaki${colors.end}-${colors.cyan} colors${colors.end}`);
-
-```
 
 
-#Docs
+# Docs
 
-###Text Color
+----
+### Text Color
 
 |color|
 |-|
@@ -48,7 +40,8 @@ console.log(`${colors.magenta}nozaki${colors.end}-${colors.cyan} colors${colors.
 |lightMagenta|
 |lightYellow|
 
-###Text Style
+----
+### Text Style
 
 |style|
 |-|
@@ -59,6 +52,7 @@ console.log(`${colors.magenta}nozaki${colors.end}-${colors.cyan} colors${colors.
 |blinkOn| 
 |blinkOff|
 
+----
 ### Background Color / Highlight
 
 |background|
@@ -80,3 +74,5 @@ console.log(`${colors.magenta}nozaki${colors.end}-${colors.cyan} colors${colors.
 |lightCyan| 
 |lightMagenta|
 |lightYellow|
+
+----
