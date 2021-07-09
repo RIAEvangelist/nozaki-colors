@@ -13,6 +13,7 @@ Use a color name as the open tag for the color, and a `end` as the closing tag f
 ![basic example](example/img/basic.PNG)
 
 ```js
+import {color,background,style,resetAllColors} from 'nozaki-colors';
 
 console.log(`
 
@@ -31,6 +32,7 @@ Note, the image below has a dark blue as the background when black is specified.
 
 
 ```js
+import {color,background,style,resetAllColors} from 'nozaki-colors';
 
 console.log(
     `${background.black}
@@ -56,6 +58,7 @@ Some OS's have slightly different implementations.
 ### Underline
 
 ```js
+import {color,background,style,resetAllColors} from 'nozaki-colors';
 
 console.log(`${background.yellow}
 
