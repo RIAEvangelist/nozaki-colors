@@ -1,6 +1,6 @@
 {
   "name": "nozaki-colors",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Another node cli colors module. Done simply and with native syntax. It's ment to make sense to engineers, not script kiddies.",
   "main": "colors.js",
   "type": "module",
