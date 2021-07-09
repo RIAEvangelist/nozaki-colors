@@ -2,7 +2,9 @@
 Another node cli colors module. Done simply and with native syntax. 
 It's ment to make sense to engineers, not script kiddies.
 
-#example
+***As you might know... windows is a special snowflake. Blink and bold don't always work well.***
+
+# examples
 
 ### Basic
 
