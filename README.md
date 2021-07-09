@@ -27,7 +27,7 @@ console.log(`
 Black and white backgrounds can be altered with the users terminal theme. 
 Note, the image below has a dark blue as the background when black is specified.
 
-![cascading example](example/img/cascade.PNG)
+![cascading example](example/img/cascade3.PNG)
 
 
 ```js
@@ -65,8 +65,6 @@ Visit nozaki's website!
 ${resetAllColors}`);
 
 ```
-
-### Blink
 
 
 # Docs

@@ -43,9 +43,10 @@ Visit nozaki's website!
 ${resetAllColors}`);
 
 
-//cascading
+//blink
 console.log(
-    `${background.black}${style.blinkOn}
+    `${background.black}
+    Blink May not work on all OS's${style.blinkOn}
 
     ${color.yellow}::::    :::  :::::::: :::::::::     :::     :::    ::: ::::::::::: 
     ${color.lightYellow}:+:+:   :+: :+:    :+:     :+:    :+: :+:   :+:   :+:      :+:     
