@@ -1,0 +1,29 @@
+{
+  "name": "nozaki-colors",
+  "version": "0.0.1",
+  "description": "Another node cli colors module. Done simply and with native syntax. It's ment to make sense to engineers, not script kiddies.",
+  "main": "colors.js",
+  "type": "module",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RIAEvangelist/nozaki-colors.git"
+  },
+  "keywords": [
+    "nozaki",
+    "colors",
+    "cli",
+    "terminal"
+  ],
+  "author": "Brandon Nozaki Miller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RIAEvangelist/nozaki-colors/issues"
+  },
+  "homepage": "https://github.com/RIAEvangelist/nozaki-colors#readme"
+}
