@@ -2,6 +2,8 @@
 Another node cli colors module. Done simply and with native syntax. 
 It's ment to make sense to engineers, not script kiddies.
 
+This works in the chrome browser console as well.
+
 ***As you might know... windows is a special snowflake. Blink and bold don't always work well.***
 
 # examples
@@ -22,6 +24,20 @@ console.log(`
 `);
 
 ```
+
+### Browser example
+
+```js
+import {color,background,style,resetAllColors} from '../node_mopdeules/nozaki-colors/color.js';
+
+console.log(`
+
+    ${color.magenta}nozaki${color.end}-${color.cyan}color${color.end}
+
+`);
+
+```
+
 
 ### Cascading
 
