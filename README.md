@@ -10,7 +10,7 @@ This works in the chrome browser console as well.
 
 ### Basic
 
-Use a color name as the open tag for the color, and a `end` as the closing tag for the color.
+Use a color name as the open tag for the color, and an `end` as the closing tag for the color.
 
 ![basic example](example/img/basic.PNG)
 
